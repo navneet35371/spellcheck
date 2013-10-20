@@ -112,3 +112,4 @@ def correct_word_memory_error(word):
     return [(x,round((float(y)/float(total_counts)),3)) for x,y in found_all(word,1)] [:5]
 
 # End of code
+
