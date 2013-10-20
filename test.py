@@ -243,4 +243,5 @@ tests2 = {'forbidden': 'forbiden', 'decisions': 'deciscions descisions',
 'together': 'togehter', 'profits': 'proffits'}
 
 if __name__ == '__main__':
-    print spelltest(tests1)
+    test = raw_input()
+    print spelltest(str(test))
